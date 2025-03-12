@@ -1,0 +1,12 @@
+<time1>
+<GCMD>r
+<time1>
+cmd
+<time1>
+<RET>
+<time1>
+Start-Process powershell.exe -Verb RunAs<time1><ARL><time1><RET>
+<time1>
+Start-Process "http://tom-onion.github.io/Portfolio"
+<time1>
+<RET>
