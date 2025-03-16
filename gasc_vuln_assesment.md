@@ -12,6 +12,8 @@
 - **`TLSv1.2: enabled`**
 - TLSv1.3: disabled
 
+
+**<span style="color:coral">TLS Renegotiation: </span>`Not supported`**
 **<span style="color:coral">Heartbleed: </span>`Not vulnerable to Heartbleed.`**
 
 **<span style="color:skyblue">Encryption Strength</span>**
