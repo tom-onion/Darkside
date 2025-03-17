@@ -1,0 +1,241 @@
+REM The next four lines open Notepad in Windows 
+GUI r
+STRING notepad
+ENTER
+DELAY 500
+REM if the system is any other OSes mentioned above lines are Comment Using`REM`
+REM and you will need to open gedit,leafpad,notepad,nano or any other text editor to use this HTML codes
+STRING <!--INVITATION CARD-->
+STRING <! DOCTYPE html>
+ENTER
+STRING<html lang="en">
+ENTER 
+STRING   <head>
+ENTER
+STRING        <title>
+ENTER
+STRING            Invitation
+ENTER
+STRING        </title>
+ENTER
+STRING    </head>
+ENTER
+STRING    <body bgcolor="lightgreen">
+ENTER
+STRING        <center> <table border="5" bgcolor="lightyellow">
+ENTER
+STRING        <td>
+ENTER
+STRING        <center>
+ENTER
+STRING        <h1>GOBI ARTS & SCIENCE COLLEGE</h1>
+ENTER
+STRING        <img src="" alt="">
+ENTER
+STRING        <h2>(Autonomous)</h2>
+ENTER
+STRING        <h3>Reaccredited by NAAC with 'A' Grade</h3>
+ENTER
+STRING        <h4> GOBICHETTIPALAYAM</h4>
+ENTER
+STRING        <hr color="violet">
+ENTER
+STRING        <b><pre>
+ENTER
+STRINGDate :11.11.2025    Day :Tuesday    Venue :ARS    Time :10:30
+ENTER
+STRING        </pre>
+ENTER
+STRING        </center>
+ENTER
+STRING        <hr color="violet">
+ENTER
+STRING        <pre> <font color="brown">
+ENTER
+STRING            Prayer: A.G.R
+ENTER
+STRING            Welcome Address:Mrs.Anitha
+ENTER
+STRING            Department Activities:Dr. K.P.Shanmughapriya(Head of C.T.)
+ENTER
+STRING            Presidental Address:Dr.T.P.Senthilkumar(Assistant Prof. of C.T.)
+ENTER
+STRING            Felicitation:Ms. Deepa(Assistant Prof. of C.T.)
+ENTER
+STRING            Chief Guest:Dhaya
+ENTER
+STRING            Special Address:A.G.R
+ENTER
+STRING            Vote of Thanks:Rithu (Dept of English Language)
+ENTER
+STRING            National Anthem:Class Rep
+ENTER
+STRING        </font></pre></b>
+ENTER
+STRING        </td>
+ENTER
+STRING        </table>
+ENTER
+STRING        </center>
+ENTER
+STRING    </body>
+ENTER
+STRING</html>
+
+REM ------------------
+REM Next HTML Document 
+REM ------------------
+
+ENTER
+ENTER
+STRING <!-- TRANSFER CERTIFICATE-->
+ENTER
+STRING<!DOCTYPE html>
+ENTER
+STRING<html>
+ENTER
+STRING    <head>
+ENTER
+STRING        <title>Transfer Certificate</title>
+ENTER
+STRING    </head>
+ENTER
+STRING    <body>
+ENTER
+STRING        <center>
+ENTER
+STRING         <table border="5"><td>
+ENTER
+STRING        <center>
+ENTER
+STRING            <h1>GOBI ARTS & SCIENCE COLLEGE</h1>
+ENTER
+STRING            <h2>(Autonomous)</h2>
+ENTER
+STRING            <h3>Karattadipalayam <br> Gobichettipalayam</h3>
+ENTER
+STRING            <h3>Transfer and Conduct Certificate</h3>
+ENTER
+STRING            <hr color="violet"><pre>
+ENTER
+STRINGNo.: XXXXXX     Admission No.: XXXXXX    Register No.: XXXXXX
+ENTER
+STRING            </pre>
+ENTER
+STRING        </center>
+ENTER
+STRING            <hr color="violet"><pre>
+ENTER
+STRING                <ol>
+ENTER
+STRING                    <li>Name Of The Student :</li>
+ENTER
+STRING                    <li>Nationality,Religion,Caste:</li>
+ENTER
+STRING                    <li>Name of The Parent:</li>
+ENTER
+STRING                    <li>Date of Birth(In Words):</li>
+ENTER
+STRING                    <li>Date of Admission</li>
+ENTER
+STRING                    <li>Class in which Student was studying at time of Learning:</li>
+ENTER
+STRING                    <li>Date on Which the Student left the College</li>
+ENTER
+STRING                    <li>Wheather Qualification Formation to higher class</li>
+ENTER
+STRING                    <li>Date of Application for Transfer Certificate:</li>
+ENTER
+STRING                    <li>Student Conduct and Character:</li>
+ENTER
+STRING                    <hr color="violet" width="100%">
+ENTER
+STRING                </ol>
+ENTER
+STRINGDate:
+ENTER
+STRING                                                    Principal
+ENTER
+STRINGGobichettipalayam
+ENTER
+STRING            </pre>
+ENTER
+STRING         </td></table></center>
+ENTER
+STRING    </body>
+ENTER
+STRING</html>
+
+REM ------------------
+REM Next HTML Document 
+REM ------------------
+
+ENTER
+ENTER
+STRING <!--STUDENT MARKSHEET-->
+ENTER
+STRING<html lang="en">
+ENTER
+STRING<head>
+ENTER
+STRING    <meta charset="UTF-8">
+ENTER
+STRING    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ENTER
+STRING    <title> Marksheet</title>
+ENTER
+STRING</head>
+ENTER
+STRING<body>
+ENTER
+STRING    <center>
+ENTER
+STRING        <table border="5" bordercolor="coral">
+ENTER
+STRING            <tr> <th colspan="8"> <center> <h1 class="animate__animated animate__bounce animate__infinite">GOBI ARTS & SCIENCE COLLEGE</h1><hr color="coral" style="height: 300%;">
+ENTER
+STRING            <h2>(Autonomous)</h2>
+ENTER
+STRING            <h3>Gobichettipalayam <br> Batch : 2023-24</h3></center></th></tr>
+ENTER
+STRING            <tr><td colspan="4"> Name : M.Dhayananth</td>
+ENTER
+STRING            <td colspan="4"> Class : II B.Sc.C.T.</td></tr>
+ENTER
+STRING            <tr><td colspan="4"> Register No. : 23CT121</td>
+ENTER
+STRING            <td colspan="4"> Date of Birth : 11.11.2025</td></tr>
+ENTER
+STRING            <tr><th>Semester</th><th>Subject</th><th>CIA</th><th>EOS</th><th>Total</th><th>Result</th><th>Grade</th><th>Credit</th></tr>
+ENTER
+STRING            <tr><td>VI</td><td>Web Design</td><td>20</td><td>70</td><td>90</td><td>Pass</td><td>O</td><td>9.0</td></tr>
+ENTER
+STRING            <tr><td>VI</td><td>Visual Basic</td><td>20</td><td>65</td><td>85</td><td>Pass</td><td>D+</td><td>8.5</td></tr>
+ENTER
+STRING            <tr><td>VI</td><td>AO</td><td>20</td><td>70</td><td>90</td><td>Pass</td><td>O</td><td>9.0</td></tr>
+ENTER
+STRING            <tr><td>VI</td><td>Web Lab</td><td>25</td><td>75</td><td>100</td><td>Pass</td><td>O</td><td>10.0</td></tr>
+ENTER
+STRING            <tr><td>VI</td><td>VB Lab</td><td>25</td><td>75</td><td>100</td><td>Pass</td><td>O</td><td>10.0</td></tr>
+ENTER
+STRING            <tr><td>VI</td><td>HTML</td><td>25</td><td>75</td><td>100</td><td>Pass</td><td>O</td></tr>
+ENTER
+STRING            <tr><td colspan="4">Date : 11.11.2025</td><td colspan="4">Principal</td></tr>
+ENTER
+STRING        </table>
+ENTER
+STRING    </center>
+ENTER
+STRING</body>
+ENTER
+STRING</html>
+
+REM ------------------
+REM Next HTML Document 
+REM ------------------
+
+ENTER
+ENTER
+STRING <!--The End of Our Journey-->
+STRING <!--PAYLOAD GENERATED BY ❤️TOM❤️-->
+ENTER
